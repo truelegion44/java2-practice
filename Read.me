@@ -1,0 +1,67 @@
+# Magic Eight Ball Simulator
+
+This is a simple JavaScript program that simulates a Magic Eight Ball, which provides random responses to user questions.
+
+## Description
+
+The Magic Eight Ball Simulator is a JavaScript program that lets users ask a question and receive a random response from the Magic Eight Ball. The program utilizes user input, random number generation, and a switch statement to simulate the behavior of a Magic Eight Ball toy.
+
+## Features
+
+- Greet the user and provide a personalized greeting.
+- Allow the user to enter their question.
+- Generate a random response using a switch statement based on a random number.
+- Display the response from the Magic Eight Ball.
+
+## Usage
+
+1. Clone or download this repository to your local machine.
+2. Open the `index.html` file in a web browser.
+3. Follow the on-screen instructions to input your name and question.
+4. The program will provide a Magic Eight Ball response.
+
+## Sample Code
+
+```javascript
+// ... (let userName = '';
+userName ? console.log('Hello, Jane!') : console.log('Hello');
+
+let userQuestion = '';
+console.log('How can I get rich?');
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = '';  // You need to assign the value based on the randomNumber
+
+switch (randomNumber) {
+  case 0:
+    eightBall = 'It is certain';
+    break;
+  case 1:
+    eightBall = 'It is decidedly so';
+    break;
+  case 2:
+    eightBall = 'Reply hazy try again';
+    break;
+  case 3:
+    eightBall = 'Cannot predict now';
+    break;
+  case 4:
+    eightBall = 'Do not count on it';
+    break;
+  case 5:
+    eightBall = 'My sources say no';
+    break;
+  case 6:
+    eightBall = 'Outlook not so good';
+    break;
+  case 7:
+    eightBall = 'Signs point to yes';
+    break;
+  default:
+    eightBall = 'No luck, I am sorry';
+    break;
+}
+
+console.log(`Magic Eight Ball says: ${eightBall}`);
+)

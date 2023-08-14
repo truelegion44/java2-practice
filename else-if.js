@@ -28,3 +28,4 @@ case 'third place':
   console.log('No medal awarded.')
     break;
 }
+
