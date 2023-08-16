@@ -39,3 +39,4 @@ switch (randomNumber) {
 }
 
 console.log('Magic Eight Ball says '+ eightBall);
+
