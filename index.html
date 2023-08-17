@@ -63,6 +63,26 @@
             }
 
             document.getElementById("answer").textContent = result;
+        } function Calculator() {
+          const numberA = parseFloat(document.getElementById("number_a").value);
+            const numberB = parseFloat(document.getElementById("number_b").value);
+            const operation = document.getElementById("ops").value;
+            let result;
+
+            if (operation == "add"){
+              result = numberA + numberB;
+            } else if (operation== "subtract"){
+              result = numberA - numberB;
+            } else if (operation== "divide"){
+              result = numberA / numberB;
+            } else if (operation == "multiply") {
+              result = numberA * numberB;
+            }else {
+              result = "invalid operation"
+            }
+              return result;
+            
+          
         }
     </script>
 </body>
